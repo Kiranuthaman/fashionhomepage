@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion</title>
+
+    <!-- Tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Style -->
+    <style>
+        * {
+            font-family: "Fraunces", serif;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="w-full p-5 bg-white flex justify-between items-center">
+        <!-- FASHION Text -->
+        <p class="text-xl md:text-4xl md:block hidden text-purple-300">FASHION</p>
+
+
+        <!-- Navigation Links -->
+        <ul class="text-black flex justify-center flex-wrap items-center space-x-4 overflow-x-auto max-w-full">
+            <li class="text-base md:text-lg hover:text-purple-300 hover:cursor-pointer">Home</li>
+            <li class="text-base md:text-lg hover:text-purple-300 hover:cursor-pointer">Accessories</li>
+            <li class="text-base md:text-lg hover:text-purple-300 hover:cursor-pointer">Log In</li>
+            <li class="text-base md:text-lg hover:text-purple-300 hover:cursor-pointer">Sale</li>
+            <li class="text-base md:text-lg hover:text-purple-300 hover:cursor-pointer">Gift Card</li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <div class="w-full md:h-screen h-96	bg-[url('https://img.freepik.com/free-photo/view-woman-wearing-purple-scarf-women-s-day-celebration_23-2151257616.jpg')] mb:bg-violet-600 bg-no-repeat bg-cover">
+        <div class="w-full flex justify-center items-center flex-col md:pt-60 pt-20">
+            <h1 class="md:text-9xl text-purple-300 text-6xl">WELCOME</h1>
+            <p class="md:text-xl text-lg mt-3 p-4 text-purple-300 text-center">where every deal is a masterpeace and
+                every visit feels like home.</p>
+            <button class="bg-purple-300 rounded-full p-2 hover:bg-purple-700">
+                SHOP NOW
+            </button>
+        </div>
+    </div>
+
+    <!-- Sale Section (Original) -->
+    <!-- Updated Sale of the Month Section -->
+<div class="w-full bg-gray-100 py-16">
+    <h1 class="text-4xl text-center font-bold">SALE OF THE MONTH</h1>
+    <div class="w-40 h-1 bg-purple-900 mt-4 mx-auto mb-10"></div>
+  
+    <!-- Sale Items Grid -->
+    <div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Sale Item 1 -->
+        <div class="relative h-96 bg-cover bg-center" style="background-image: url('https://img.freepik.com/free-photo/fashion-girl-posing-studio-wearing-smart-casual-sportive-outfit-business-style-sweet-pastel-colors-sunglasses-backpack-denim-jacket-mint-background-stylish-woman_291049-1800.jpg');">
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-start p-6">
+                <h3 class="text-white text-2xl font-bold">20% Off On Tank Tops</h3>
+                <p class="text-white mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.</p>
+                <button class="mt-4 bg-white text-black px-4 py-2 rounded hover:bg-gray-200">SHOP NOW</button>
+            </div>
+        </div>
+  
+        <!-- Sale Item 2 -->
+        <div class="relative h-96 bg-cover bg-center" style="background-image: url('https://st2.depositphotos.com/4278641/11932/i/450/depositphotos_119329872-stock-photo-portrait-of-a-beautiful-girl.jpg');">
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-start p-6">
+                <h3 class="text-white text-2xl font-bold">Latest Eyewear For You</h3>
+                <p class="text-white mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.</p>
+                <button class="mt-4 bg-white text-black px-4 py-2 rounded hover:bg-gray-200">SHOP NOW</button>
+            </div>
+        </div>
+  
+        <!-- Sale Item 3 -->
+        <div class="relative h-96 bg-cover bg-center" style="background-image: url('https://cdn2.stylecraze.com/wp-content/uploads/2018/01/50-Fashion-Tips-Every-Girl-Should-Know.jpg');">
+            <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col justify-center items-start p-6">
+                <h3 class="text-white text-2xl font-bold">Let's Lorem Suit Up!</h3>
+                <p class="text-white mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ac dictum.</p>
+                <button class="mt-4 bg-white text-black px-4 py-2 rounded hover:bg-gray-200">CHECK OUT</button>
+            </div>
+        </div>
+    </div>
+  </div>
+  
+
+    <!-- Featured Products Section -->
+    <div class="w-full flex justify-center items-center flex-col">
+            <h1 class="md:text-4xl text-2xl mt-20 font-bold">SALE</h1>
+            <div class="w-40 h-1 bg-purple-900 mb-4"></div>
+     
+       <!-- Products Grid -->
+        <div class="mt-10 grid grid-cols-1 md:grid-cols-4 gap-8 px-4 md:px-40 w-full">
+            <!-- Product 1 -->
+            <div class="relative p-4 bg-white rounded-lg shadow-md">
+                <img src="https://assets.ajio.com/medias/sys_master/root/20231016/Yw1i/652d637fafa4cf41f549398d/-473Wx593H-466715012-yellow-MODEL.jpg" alt="DNK Yellow Shoes" class="w-full h-64 object-cover rounded-lg">
+                <div class="absolute top-2 left-2 bg-white text-red-500 text-xs px-2 py-1 rounded-full shadow-md">Sale!</div>
+                <div class="mt-4">
+                    <h2 class="text-lg font-bold">Yellow Shoes</h2>
+                    <p class="text-purple-500 line-through">1050.00</p>
+                    <p class="text-green-500">1020.00</p>
+                    <div class="flex mt-2">
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-200"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="relative p-4 bg-white rounded-lg shadow-md">
+                <img src="https://ae01.alicdn.com/kf/Sfe806bb9f5d549bdb11e3b8bf9daa7cfe/Autumn-Fashion-Girls-Casual-Shoes-Students-Flat-Canvas-Shoes-Flats-Women-Sneakers-All-Match-Sky-Blue.jpg" alt="DNK Blue Shoes" class="w-full h-64 object-cover rounded-lg">
+                <div class="mt-4">
+                    <h2 class="text-lg font-bold">Blue Shoes</h2>
+                    <p class="text-gray-700">2000.00 - 2400.00</p>
+                    <div class="flex mt-2">
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-200"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="relative p-4 bg-white rounded-lg shadow-md">
+                <img src="https://i.pinimg.com/736x/21/3c/45/213c45acc54d1f9549f645f5e1cd08be.jpg" alt="Dark Brown Jeans" class="w-full h-64 object-cover rounded-lg">
+                <div class="mt-4">
+                    <h2 class="text-lg font-bold">Dark Brown Jeans</h2>
+                    <p class="text-gray-700">1500.00</p>
+                    <div class="flex mt-2">
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-200"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="relative p-4 bg-white rounded-lg shadow-md">
+                <img src="https://5.imimg.com/data5/SELLER/Default/2023/3/296979522/OC/AZ/QB/52982300/m-moddy-525hw-straight-fit-stretchable-fray-hems-dark-blue-jeans-for-girls-500x500.jpg" alt="Blue Denim Jeans" class="w-full h-64 object-cover rounded-lg">
+                <div class="mt-4">
+                    <h2 class="text-lg font-bold">Blue Denim Jeans</h2>
+                    <p class="text-gray-700">1000.00</p>
+                    <div class="flex mt-2">
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-200"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mt-10 grid grid-cols-1 md:grid-cols-4 gap-8 px-4 md:px-40 w-full">
+            <!-- Product 1 -->
+            <div class="relative p-4 bg-white rounded-lg shadow-md">
+                <img src="https://stylestryproductionwls47sou4z.cdn.e2enetworks.net/images/products/medium/88a49776f7b6fe2cf3d08b4397adac77ce20675b.webp" alt="boot" class="w-full h-64 object-cover rounded-lg">
+                <div class="mt-4">
+                    <h2 class="text-lg font-bold">Black Long Boots</h2>
+                    <p class="text-purple-500 line-through">1050.00</p>
+                    <p class="text-green-500">1020.00</p>
+                    <div class="flex mt-2">
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-200"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="relative p-4 bg-white rounded-lg shadow-md">
+                <img src="https://images-cdn.ubuy.co.in/6350103179890336d04bb0b4-ruimatai-womens-skirt-clearance-summer.jpg" alt="skirt" class="w-full h-64 object-cover rounded-lg">
+                <div class="mt-4">
+                    <h2 class="text-lg font-bold">Mini Skirts</h2>
+                    <p class="text-gray-700">2000.00 - 2400.00</p>
+                    <div class="flex mt-2">
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-200"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 3 -->
+            <div class="relative p-4 bg-white rounded-lg shadow-md">
+                <img src="https://threadcounts.in/cdn/shop/files/3_4_29f2ef23-2461-4bdf-a2f1-2f855dc2e2c6.jpg?v=1713568532" alt="Midi" class="w-full h-64 object-cover rounded-lg">
+                <div class="mt-4">
+                    <h2 class="text-lg font-bold">Midi Dress</h2>
+                    <p class="text-gray-700">1500.00</p>
+                    <div class="flex mt-2">
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-200"></i>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Product 4 -->
+            <div class="relative p-4 bg-white rounded-lg shadow-md">
+                <img src="https://www.jiomart.com/images/product/original/rvz9aq1pun/roswine-white-black-striped-shirt-for-women-casual-shirt-for-girls-latest-design-shirt-fir-women-striped-shirt-for-girls-and-women-office-wear-shirt-for-girls-l-product-images-rvz9aq1pun-0-202311221607.jpg?im=Resize=(1000,1000)" alt="Blue Denim Jeans" class="w-full h-64 object-cover rounded-lg">
+                <div class="mt-4">
+                    <h2 class="text-lg font-bold">Shirts</h2>
+                    <p class="text-gray-700">1000.00</p>
+                    <div class="flex mt-2">
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-400"></i>
+                        <i class="fa fa-star text-yellow-200"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Sale Banner -->
+        <div class="bg-gray-200 text-center py-6 mt-20">
+            <h1 class="text-2xl font-bold text-gray-900">SALE UP TO 70% OFF FOR ALL CLOTHES & FASHION ITEMS, ON ALL BRANDS.</h1>
+        </div>
+    
+        <!-- Footer -->
+        <footer class="bg-white py-12">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center sm:text-left">
+                    <!-- Logo and Tagline -->
+                    <div class="col-span-1">
+                        <h2 class="text-4xl font-bold text-gray-800">FASHION</h2>
+                        <p class="mt-2 text-gray-600">The best look anytime, anywhere.</p>
+                    </div>
+    
+                    <!-- For Her Section -->
+                    <div>
+                        <h3 class="text-lg font-semibold text-gray-800">For Her</h3>
+                        <ul class="mt-4 space-y-2 text-gray-600">
+                            <li><a href="#" class="hover:text-gray-900">Women Jeans</a></li>
+                            <li><a href="#" class="hover:text-gray-900">Tops and Shirts</a></li>
+                            <li><a href="#" class="hover:text-gray-900">Women Jackets</a></li>
+                            <li><a href="#" class="hover:text-gray-900">Heels and Flats</a></li>
+                            <li><a href="#" class="hover:text-gray-900">Women Accessories</a></li>
+                        </ul>
+                    </div>
+    
+                    <!-- Subscribe Section -->
+                    <div class="col-span-1 sm:col-span-3 mt-8 sm:mt-0">
+                        <h3 class="text-lg font-semibold text-gray-800">Subscribe</h3>
+                        <form class="mt-4">
+                            <input type="email" placeholder="Your email address..." class="px-4 py-2 border border-gray-300 rounded w-full max-w-xs">
+                            <button type="submit" class="mt-4 px-6 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">SUBSCRIBE</button>
+                        </form>
+                    </div>
+                </div>
+    
+                <!-- Social Icons and Copyright -->
+                <div class="mt-12 border-t pt-8 flex flex-col sm:flex-row justify-between items-center">
+                    <p class="text-gray-600">&copy; 2024 FASHION. Powered by FASHION.</p>
+                    <div class="flex space-x-6 mt-4 sm:mt-0">
+                        <a href="#" class="text-gray-600 hover:text-gray-900"><i class="fab fa-facebook"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-gray-900"><i class="fab fa-youtube"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-gray-900"><i class="fab fa-twitter"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-gray-900"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="text-gray-600 hover:text-gray-900"><i class="fab fa-google"></i></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    
+</body>
+
+</html>
